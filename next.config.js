@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 /* eslint-disable @typescript-eslint/no-var-requires */
 const nextConfig = {
-  output: 'standalone',
-  eslint: {
-    dirs: ['src'],
+  //output: 'standalone',
+  //eslint: {
+    //dirs: ['src'],
     webpack: (config, { isServer }) => {
         if (isServer) {
             // 避免 webpack 尝试打包 async_hooks，因为它由运行时环境提供

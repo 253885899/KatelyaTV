@@ -88,6 +88,11 @@ export default async function RootLayout({
   return (
     <html lang='zh-CN' suppressHydrationWarning>
       <head>
+        {/* 1. 解决防盗链：允许加载豆瓣/新浪等第三方图片 */}
+        <meta name="referrer" content="no-referrer" />
+        {/* 2. 解决混合内容：强制将 http 图片请求升级为 https */}
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+        
         {/* 将配置序列化后直接写入脚本，浏览器端可通过 window.RUNTIME_CONFIG 获取 */}
         {/* eslint-disable-next-line @next/next/no-sync-scripts */}
         <script

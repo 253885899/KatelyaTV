@@ -30,6 +30,7 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 
   return {
+    referrer: 'no-referrer',// 解决主页图片不显示问题
     title: siteName,
     description: '影视聚合',
     manifest: '/manifest.json',

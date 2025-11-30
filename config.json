@@ -169,6 +169,12 @@
       "detail": "http://caiji.dyttzyapi.com",
       "is_adult": false
     },
+    "bwzyz": {
+      "api": "https://api.bwzyz.com/api.php/provide/vod",
+      "name": "AV-百万资源",
+      "detail": "https://api.bwzyz.com",
+      "is_adult": true
+    },
     "apibdzy": {
       "api": "https://api.apibdzy.com/api.php/provide/vod",
       "name": "TV-百度云资源",
@@ -295,12 +301,6 @@
       "detail": "https://json02.heimuer.xyz",
       "is_adult": false
     },
-    "91md": {
-      "api": "https://91md.me/api.php/provide/vod",
-      "name": "AV-91麻豆",
-      "detail": "https://91md.me",
-      "is_adult": true
-    },
     "ffzynew": {
       "api": "https://api.ffzyapi.com/api.php/provide/vod",
       "name": "非凡影视new",
@@ -397,6 +397,12 @@
       "api": "https://www.qiqidys.com/api.php/provide/vod/",
       "name": "七七影视",
       "is_adult": false
+    },
+	"91md": {
+      "api": "https://91md.me/api.php/provide/vod",
+      "name": "AV-91麻豆",
+      "detail": "https://91md.me",
+      "is_adult": true
     }
   }
 }
